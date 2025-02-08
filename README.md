@@ -13,5 +13,5 @@ Once the slackmojis are downloaded, you can then bulk-upload them to a slack wor
 1. Find the URL of the slackmoji category you want to download. For example https://slackmojis.com/categories/25-blob-cats-emojis
 2. Run the script `curl https://slackmojis.com/categories/25-blob-cats-emojis > slackmojis.html`
 3. Run the script `grep -o 'https://emojis\.slackmojis\.com[^"]*' slackmojis.html > slackmoji_urls.csv`
-4. Run the script `python import-slackmojis.py`
+4. Run the script `python download_slackmojis.py`
 5. The emojis will be downloaded to `cwd/slackmojis`

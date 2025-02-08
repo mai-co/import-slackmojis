@@ -1,0 +1,2 @@
+# import-slackmojis
+Import slackmojis

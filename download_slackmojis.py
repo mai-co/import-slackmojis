@@ -6,7 +6,7 @@ from urllib.parse import urlparse
 
 def download_emojis(csv_file):
     # Create directory if it doesn't exist
-    output_dir = os.path.expanduser("~/slackmojis")
+    output_dir = os.path.join(os.getcwd(), "slackmojis")
     Path(output_dir).mkdir(parents=True, exist_ok=True)
 
     # Read URLs from file
